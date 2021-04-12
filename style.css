@@ -1,0 +1,107 @@
+h1{
+    color:rgb(145, 190, 190);
+    font: Arial;
+    font-style: italic;
+    margin-left: 300px;
+    margin-top: 30px;
+
+}
+
+h2{
+    margin-right: 100px;
+    color: thistle;
+    padding-right: 10px;
+    padding-left:10px;
+}
+
+*{border: solid;} 
+*{color:rosybrown;}
+
+.header{
+    background-color: rgb(100, 100, 167);
+    display: flex; 
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: rgb(187, 214, 140);
+}
+
+.description h1{
+   color:indigo; 
+   margin-left: 10px;
+   padding-left: 1px;
+   padding-right: 1px;
+   text-align: center;
+   display: flex; 
+   align-items: stretch;
+   justify-content: space-between;
+}
+
+.description p, h2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 223, 136);
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    background-color: lightpink;
+}
+
+.items{
+    display: flex;
+    align-items: stretch;
+    position: relative;
+
+}
+.items p{
+    color: indianred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+}
+.items:hover p{
+    opacity:1;
+}
+.items:hover img{
+    opacity:0.2;
+}
+
+.beginning{
+    background-color: rgb(179, 235, 230);
+    color: rgb(255, 223, 136);
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: larger;  
+    text-align:center;
+}
+
+body{
+    background-color: #9CB0FF;
+}
+
+a:link{
+color: pink;
+}
+a:visited{
+    color: purple;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
